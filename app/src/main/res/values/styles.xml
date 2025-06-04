@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Headline Text -->
+    <style name="TextHeadline">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Section Header -->
+    <style name="TextSectionHeader">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Body Text -->
+    <style name="TextBody">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Caption Text -->
+    <style name="TextCaption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonDanger" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/colorError</item>
+    </style>
+
+    <!-- ProgressBar -->
+    <style name="ProgressBar.CenterHorizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
+
+</resources>

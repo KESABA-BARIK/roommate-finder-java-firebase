@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style = "ImageView.Avatar"
+            android:id="@+id/imageViewProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:onClick="selectProfileImage"/>
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/full_name" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/age"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/gender_options" />
+
+        <EditText
+            android:id="@+id/editTextInterests"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/interests_e_g_reading_sports" />
+
+        <EditText
+            android:id="@+id/editTextPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/roommate_preferences_e_g_quiet_non_smoker" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleLarge"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/find_roommate"
+        android:title="@string/find_roommate"
+        android:icon="@drawable/find_roommate"
+         />
+
+    <item
+        android:id="@+id/check_availability"
+        android:title="@string/check_room_availability"
+        android:icon="@drawable/room_availability"
+         />
+
+    <item
+        android:id="@+id/menu_chat_with_roommates"
+        android:title="@string/chat_with_roommates"
+        android:icon="@drawable/chat"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/logout" />
+</menu>

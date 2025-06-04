@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804212922407",
+    "project_id": "hostelroommatefinder",
+    "storage_bucket": "hostelroommatefinder.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804212922407:android:fd1bded7726330b5f31602",
+        "android_client_info": {
+          "package_name": "com.example.HostelRoommateFinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8aaAzw7UJTvo8TEZO7qovBjnsdpma10E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

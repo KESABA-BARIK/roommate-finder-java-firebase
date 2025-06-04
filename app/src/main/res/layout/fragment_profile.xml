@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/editTextName"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editTextAge"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interests (comma-separated)"
+        app:layout_constraintTop_toBottomOf="@id/genderSpinner"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roommate Preferences"
+        app:layout_constraintTop_toBottomOf="@id/editTextInterests"
+        android:layout_marginTop="16dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

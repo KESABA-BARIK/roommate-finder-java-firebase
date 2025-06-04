@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Section -->
+        <!-- ... [No change to this section] ... -->
+
+        <!-- Room Details Grid -->
+        <!-- ... [No change to this section] ... -->
+
+        <!-- Roommate Information Section -->
+        <LinearLayout
+            android:id="@+id/layoutRoommateInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#E5F4F4"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="8dp"
+                android:background="#E0E0E0" />
+
+
+            <!-- Roommate Details -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Shared IDs and values from both layouts -->
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_name"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Name: John"
+                    android:textColor="#666666"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_age"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Age: 22"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_gender"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Gender: Female"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvInterests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_interests"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Interests: Sports, Music"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvPreferences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_preferences"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Preferences: Quiet, Non-smoking"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Action Buttons -->
+        <!-- ... [No change to this section] ... -->
+
+
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

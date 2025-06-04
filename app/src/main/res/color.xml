@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#6CB1AA</color>
+    <color name="secondary_color">#4A90E2</color>
+    <color name="accent_color">#FF6B6B</color>
+    <color name="location_card_bg">#F8F9FA</color>
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="gradient_start">#6CB1AA</color>
+    <color name="gradient_end">#4A90E2</color>
+    <color name="coordinate_bg">#ECEFF1</color>
+</resources>

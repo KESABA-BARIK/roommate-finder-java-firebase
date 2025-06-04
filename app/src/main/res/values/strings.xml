@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HostelRoommateFinder</string>
+    <string name="find_roommate">Find Roommate</string>
+    <string name="check_room_availability">Check Room Availability</string>
+    <string name="chat_with_roommates">Chat with Roommates</string>
+    <string name="logout">Logout</string>
+    <string name="password">Password</string>
+    <string name="age">Age</string>
+    <string name="interests_e_g_reading_sports">Interests (e.g., Reading, Sports)</string>
+    <string name="roommate_preferences_e_g_quiet_non_smoker">Roommate Preferences (e.g., Quiet, Non-Smoker)</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="find_a_roommate">Find a Roommate</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

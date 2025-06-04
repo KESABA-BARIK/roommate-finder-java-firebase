@@ -1,0 +1,70 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ========== Build & Output ==========
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+/build/
+.cxx/
+.externalNativeBuild/
+captures/
+output/
+bin/
+gen/
+out/
+
+# ========== Gradle ==========
+.gradle/
+**/build/
+
+# ========== Local Configuration ==========
+local.properties
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.iml
+
+# ========== OS-Specific ==========
+.DS_Store
+Thumbs.db
+
+# ========== Firebase & Secrets ==========
+google-services.json
+*.keystore
+*.jks
+
+# ========== Logging & Temp ==========
+*.log
+*.tmp
+
+# ========== Others (Optional) ==========
+# VS Code settings if used
+.vscode/
+
+# Kotlin-specific (if using Kotlin)
+*.kotlin_module
+
+# Crashlytics (if integrated)
+fabric.properties
+crashlytics.properties
+

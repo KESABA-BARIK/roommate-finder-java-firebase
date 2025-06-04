@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FF6200EE</color> <!-- You can replace this with the desired color -->
+    <color name="primary_variant">#3700B3</color> <!-- Optional variant -->
+    <color name="secondary">#03DAC5</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryVariant">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Backgrounds and surfaces -->
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorDivider">#DDDDDD</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <!-- Error -->
+    <color name="colorError">#D32F2F</color>
+
+</resources>
