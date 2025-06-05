@@ -29,7 +29,7 @@
         <!-- ✅ Correct location for your Maps API key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCFF2i8UL5P1G0pYyB3hRQXP2cvjZ_hKtU" />
+            android:value="API_KEY" />
 
 
         <activity android:name=".MainActivity" android:exported="true" />
